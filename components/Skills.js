@@ -7,41 +7,35 @@ const Skills = () => {
       <div className=" h-full max-w-[1240px] flex flex-col justify-center m-auto ">
         <h2 className="  text-[#5851e5] py-4">What can I do ?</h2>
         <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-4">
+          <SkillCard imgSource="/images/assets/Skills/html.png" lang="HTML" />
+          <SkillCard imgSource="/images/assets/Skills/css.png" lang="CSS" />
           <SkillCard
-            imgSource="/../public/assets/Skills/html.png"
-            lang="HTML"
-          />
-          <SkillCard imgSource="/../public/assets/Skills/css.png" lang="CSS" />
-          <SkillCard
-            imgSource="/../public/assets/Skills/javascript.png"
+            imgSource="/images/assets/Skills/javascript.png"
             lang="JAVASCRIPT"
           />
           <SkillCard
-            imgSource="/../public/assets/Skills/react.png"
+            imgSource="/images/assets/Skills/react.png"
             lang="REACTJS"
           />
           <SkillCard
-            imgSource="/../public/assets/Skills/nextjs.png"
+            imgSource="/images/assets/Skills/nextjs.png"
             lang="NEXTJS"
           />
+          <SkillCard imgSource="/images/assets/Skills/node.png" lang="NODEJS" />
           <SkillCard
-            imgSource="/../public/assets/Skills/node.png"
-            lang="NODEJS"
-          />
-          <SkillCard
-            imgSource="/../public/assets/Skills/tailwind.png"
+            imgSource="/images/assets/Skills/tailwind.png"
             lang="TAILWIND CSS"
           />
           <SkillCard
-            imgSource="/../public/assets/Skills/mongo.png"
+            imgSource="/images/assets/Skills/mongo.png"
             lang="MONGODB"
           />
           <SkillCard
-            imgSource="/../public/assets/Skills/firebase.png"
+            imgSource="/images/assets/Skills/firebase.png"
             lang="FIREBASE"
           />
           <SkillCard
-            imgSource="/../public/assets/Skills/github1.png"
+            imgSource="/images/assets/Skills/github1.png"
             lang="GIT & GITHUB"
           />
         </div>

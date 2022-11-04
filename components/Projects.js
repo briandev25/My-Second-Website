@@ -8,27 +8,27 @@ function Projects() {
         <h2 className="  text-[#5851e5] py-4"> My Projects</h2>
         <div className=" grid md:grid-cols-2 gap-8">
           <ProjectCard
-            projImg="/../public/assets/Projects/amazon.png"
+            projImg="/images/assets/Projects/amazon.png"
             title="Amazon Clone"
           />
           <ProjectCard
-            projImg="/../public/assets/Projects/airbnb.png"
+            projImg="/images/assets/Projects/airbnb.png"
             title="AIRBNB Clone"
           />
           <ProjectCard
-            projImg="/../public/assets/Projects/disney.png"
+            projImg="/images/assets/Projects/disney.png"
             title="Disney Clone"
           />
           <ProjectCard
-            projImg="/../public/assets/Projects/hulu.png"
+            projImg="/images/assets/Projects/hulu.png"
             title="Hulu Clone"
           />
           <ProjectCard
-            projImg="/../public/assets/Projects/tesla.png"
+            projImg="/images/assets/Projects/tesla.png"
             title="Tesla Clone"
           />
           <ProjectCard
-            projImg="/../public/assets/Projects/first-website.png"
+            projImg="/images/assets/Projects/first-website.png"
             title="My First Website"
           />
         </div>

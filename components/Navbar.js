@@ -40,7 +40,7 @@ const Navbar = () => {
           <Image
             objectFit="fill"
             className=" cursor-pointer"
-            src="/../public/logos/logo5.png"
+            src="/logos/logo5.png"
             alt="img"
             width="125"
             height="60"

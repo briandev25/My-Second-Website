@@ -17,7 +17,7 @@ const Contact = () => {
               <div>
                 <img
                   className=" rounded-xl hover:scale-105 ease-in duration-300"
-                  src="../assets/about.jpg"
+                  src="/images/assets/about.jpg"
                   alt="/"
                 />
               </div>
